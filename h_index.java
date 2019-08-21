@@ -22,7 +22,6 @@ class Solution {
         int h = 0;
         for(int i = 0; i<citations.length; i++){
             int val = citations[i]; 
-            int count = size -val; //how many have < # of citations
             int c = size-i;
             if(c<=val&&c>h) h = c;
         }
